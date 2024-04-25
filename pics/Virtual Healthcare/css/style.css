@@ -1,0 +1,131 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 56px;
+  padding: 20px;
+  color: #000;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .the_logo{
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 70%;
+  background-color: #458ff6;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-items:center;
+  margin: 50px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  font-size:25px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 8px;
+  font-size: 14px;
+}
+nav ul li :first-child {
+  margin-left: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+button.consult-btn {
+  background-color: #458ff6;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 55px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  display: block;
+}
+.services {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0a0b0e;
+  padding: 33px 30px 0px 30px;
+  margin-bottom: 80px;
+}
+.services img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.information {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.information_title{
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+.information_text{
+  font-size: large;
+  font-display: block;
+  display: flex;
+  justify-content: space-around;
+}
+.details {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.details_title{
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+.details_text{
+  font-size: large;
+  font-display: block;
+  display: flex;
+ justify-content: space-around;
+}
+button.learn-btn{
+  background-color: #fff;
+  font-weight: 400;
+  font-size: medium;
+  color: #458ff6;
+border-color: #1f63a7;
+border-radius: 50px 50px;
+border-width: 1px;
+margin: 10px 580px;
+}
+.providers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+.apps {
+  display: flex;
+  align-items: center;
+  font-size:25px;
+  justify-content: space-around;
+}
+.apps_title{
+  justify-content: space space-around;
+  margin: 300px;
+}
